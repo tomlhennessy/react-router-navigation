@@ -3,28 +3,10 @@
 In this practice you will learn how to create navigation for your Route paths
 using [`Link`][link] and [`NavLink`][navlink].
 
-## Set up
+## Setup
 
-Make sure you are logged in to your [codesandbox.io] account.
-
-Navigate to the starter repo for this short practice by clicking the `Download
-Project` button at the bottom of the page. Use one of the following options to
-load the practice into codesandbox.
-
-### Option 1 (the simplest option)
-
-- In the url of the starter repo, append `box` to the word `github` and hit
-  `Enter` or `return` depending on your computer. You should be taken to
-  [codesandbox.io] and the app should be loaded for you.
-- Example: To load the repo at
-  `https://github.com/appacademy/functional-component-jsx` into codesandbox, you
-  would go to `https://githubbox.com/appacademy/functional-component-jsx`.
-
-### Option 2
-
-- Navigate to [codesandbox.io] and sign in. Click `Create Sandbox`, then choose
-  `Import Project` from the sidebar. Paste the link to the starter repo and
-  click `Import and Fork`.
+Click the `Download Project` button at the bottom of this page to go to the
+starter repo, then load the repo into [CodeSandbox].
 
 ## Navigation
 
@@ -66,7 +48,7 @@ is just the `Link` component with extra functionality.)
 Replace the `Link` import with the `NavLink` import.
 
 Also, for your `Home` link, replace `Link` with `NavLink`. You will need to make
-your url `exact` in this component, just as you did in the `Route`.
+your URL `exact` in this component, just as you did in the `Route`.
 
 Now add list-items and `NavLink`s for the `Stocks` and `Movies` routes.
 
@@ -108,7 +90,7 @@ Next, in your __Stocks/index.js__ file, create a variable called `loggedIn` and
 assign it to `false`.
 
 Add an `if` statement that uses the `Redirect` component--don't forget to import
-it!--to redirect the user to the `/not-logged-in` url when the `loggedIn`
+it!--to redirect the user to the `/not-logged-in` URL when the `loggedIn`
 variable is `false`.
 
 Test your code in the sandbox browser by clicking on the `Stocks` link. It
@@ -174,7 +156,7 @@ Test in the browser.
 5. Use the History API and the [`useHistory`][usehistory] hook to navigate the
    user to another location after they have handled some other functionality
 
-[codesandbox.io]: http://www.codesandbox.io
+[CodeSandbox]: https://www.codesandbox.io
 [link]: https://v5.reactrouter.com/web/api/Link
 [navlink]: https://v5.reactrouter.com/web/api/NavLink
 [active-classname]: https://v5.reactrouter.com/web/api/NavLink/activeclassname-string
